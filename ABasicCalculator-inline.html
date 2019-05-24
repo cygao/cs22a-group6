@@ -18,7 +18,7 @@
 </head>
 <body>
 	<!-- Replace "Your Name Goes Here!" with your first and last name, thanks! -->
-	<h1>Cameron Gao, Will Wang</h1>
+	<h1>Cameron Gao and Will Wang</h1>
 
 	<div id="content">
 		<div id="calculator-container">
@@ -31,18 +31,26 @@
 					onclick="calc.output.value = calc.output.value + this.id">
 				<input type="button" id="2" value="  2  "
 					onclick="calc.output.value += this.id"> <input
-					type="button" id="3" value="  3  "> <input
+					type="button" id="3" value="  3  "
+					onclick="calc.output.value = calc.output.value += this.id"> <input
 					type="button" id="+" value="  +  "> <br> <input
-					type="button" id="4" value="  4  "> <input
-					type="button" id="5" value="  5  "> <input
-					type="button" id="6" value="  6  "> <input
+					type="button" id="4" value="  4  "
+					onclick="calc.output.value = calc.output.value += this.id"> <input
+					type="button" id="5" value="  5  "
+					onclick="calc.output.value = calc.output.value += this.id"> <input
+					type="button" id="6" value="  6  "
+					onclick="calc.output.value = calc.output.value += this.id"> <input
 					type="button" id="-" value="  -  "> <br> <input
-					type="button" id="7" value="  7  "> <input
-					type="button" id="8" value="  8  "> <input
-					type="button" id="9" value="  9  "> <input
+					type="button" id="7" value="  7  "
+					onclick="calc.output.value = calc.output.value += this.id"> <input
+					type="button" id="8" value="  8  "
+					onclick="calc.output.value = calc.output.value += this.id"> <input
+					type="button" id="9" value="  9  "
+					onclick="calc.output.value = calc.output.value += this.id"> <input
 					type="button" id="*" value="  x  "> <br> <input
 					type="button" id="c" value="  C  "> <input
-					type="button" id="0" value="  0  ">
+					type="button" id="0" value="  0  "
+					onclick="calc.output.value = calc.output.value += this.id">
 				<!-- Use the math.eval() function from the Math.js math library to parse and evaluate the String with mathematics in it -->
 				<input type="button" id="equate" value="  =  "> <input
 					type="button" id="/" value="&divide;">
