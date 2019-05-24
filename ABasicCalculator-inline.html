@@ -57,7 +57,7 @@
 					onclick="calc.output.value = calc.output.value += this.id">
 				<!-- Use the math.eval() function from the Math.js math library to parse and evaluate the String with mathematics in it -->
 				<input type="button" id="equate" value="  =  "
-					onclick="calc.output.value = calc.output.value += this.id">
+					onclick="calc.output.value = math.eval(calc.output.value)">
 				<input type="button" id="/" value="&divide;"
 					onclick="calc.output.value = calc.output.value += this.id">
 			</form>
